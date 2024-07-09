@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Камень - Ножницы - Бумага</h1>
+    
+    <div class="choices">
+        <button onclick="playGame('камень')">👊</button>
+        <button onclick="playGame('ножницы')">✌</button>
+        <button onclick="playGame('бумага')">🖐</button>
+    </div>
+
+    <div id="playerDisplay">Игрок: </div>
+    <div id="computerDisplay">Компьютер: </div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Счет игрока: 
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Счет компьютера: 
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
